@@ -1,29 +1,42 @@
-﻿using Cms.ViewModel.User;
-using Cms.WebApi.Models;
+﻿using Cms.Interface.Service;
+using Cms.Model;
+using Cms.ViewModel.User;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Web.Http;
-using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
-using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
-using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace Cms.WebApi.Controllers
 {
-    [RoutePrefix("api/vm/users")]
     public class UserController : ControllerBase
     {
+        private readonly IUserService _userService;
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
         [Route("")]
         [HttpPost]
-        public IActionResult Authenticate(UserVm user)
+        public IActionResult Authenticate([FromBody] UserVm user)
         {
-            return Ok();
+            var userModel = new UserModel();
+            userModel.Email = user.Email;
+            userModel.UserName = user.Email;
+            userModel.PasswordHash = user.Password;
+            userModel.SecurityStamp = Guid.NewGuid().ToString();
+            _userService.SaveUser(userModel);
+            return Ok(userModel);
         }
 
         [Route("register")]
         [HttpPost]
-        public IActionResult RegisterUser(UserVm user)
+        public IActionResult RegisterUser([FromBody] UserVm user)
         {
-            return Ok();
+            var userModel = new UserModel();
+            userModel.Email = user.Email;
+            userModel.PasswordHash = user.Password;
+            userModel.SecurityStamp = Guid.NewGuid().ToString();
+            _userService.SaveUser(userModel);
+            return Ok(userModel);
         }
 
 

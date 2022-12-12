@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
@@ -17,6 +18,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cms.DataAcces\Cms.DataAcces.csproj" />
+    <ProjectReference Include="..\Cms.Interface\Cms.Interface.csproj" />
+    <ProjectReference Include="..\Cms.Service.Impl\Cms.Service.Impl.csproj" />
+    <ProjectReference Include="..\Cms.ViewModel\Cms.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

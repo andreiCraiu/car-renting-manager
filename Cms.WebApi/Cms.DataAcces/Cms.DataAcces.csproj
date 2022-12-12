@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cms.Interface\Cms.Interface.csproj" />
+  </ItemGroup>
+
 </Project>

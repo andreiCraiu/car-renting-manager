@@ -7,14 +7,14 @@
       <template #body-card>
         <div role="group">
           <b-form-input
-            v-model="user"
+            v-model="user.email"
             placeholder="User"
             type="email"
             trim
             class="mb-3 mt-5"
           ></b-form-input>
           <b-form-input
-            v-model="password"
+            v-model="user.password"
             placeholder="Password"
             trim
             type="password"
@@ -23,7 +23,13 @@
         <div class="container">
           <div class="row">
             <div class="col text-center">
-              <b-button href="#" variant="primary" class="mt-3">Login</b-button>
+              <b-button
+                href="#"
+                variant="primary"
+                class="mt-3"
+                @click="authenticate"
+                >Login</b-button
+              >
             </div>
           </div>
         </div>
@@ -72,12 +78,32 @@
 <script>
 import { BCarouselSlide, BFormInput } from "bootstrap-vue";
 import BaseCard from "../../base-components/BaseCard.vue";
+import { UserService } from "../../services/user.service";
+import UserVm from "../view-models/userVm";
+
 export default {
   name: "LoginPage",
   components: {
     BCarouselSlide,
     BFormInput,
     BaseCard,
+  },
+  data() {
+    return {
+      user: {
+        email: "",
+        password: "",
+      },
+    };
+  },
+  methods: {
+    async authenticate() {
+      let userVm = new UserVm();
+      userVm.email = this.user.email;
+      userVm.password = this.user.password;
+      await UserService.authenticate(userVm);
+      this.user = null;
+    },
   },
 };
 </script>

@@ -1,0 +1,15 @@
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\bin\Debug\net6.0\Cms.Interface.deps.json
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\bin\Debug\net6.0\Cms.Interface.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\bin\Debug\net6.0\Cms.Interface.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\bin\Debug\net6.0\Cms.Model.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\bin\Debug\net6.0\Cms.Model.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.csproj.AssemblyReference.cache
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.AssemblyInfoInputs.cache
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.AssemblyInfo.cs
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.csproj.CoreCompileInputs.cache
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.csproj.CopyComplete
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\refint\Cms.Interface.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\Cms.Interface.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Interface\obj\Debug\net6.0\ref\Cms.Interface.dll

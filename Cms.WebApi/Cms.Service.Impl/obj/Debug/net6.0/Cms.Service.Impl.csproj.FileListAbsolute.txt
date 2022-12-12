@@ -1,0 +1,17 @@
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Service.Impl.deps.json
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Service.Impl.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Service.Impl.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Interface.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Model.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Interface.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\bin\Debug\net6.0\Cms.Model.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.csproj.AssemblyReference.cache
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.AssemblyInfoInputs.cache
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.AssemblyInfo.cs
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.csproj.CoreCompileInputs.cache
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.csproj.CopyComplete
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\refint\Cms.Service.Impl.dll
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\Cms.Service.Impl.pdb
+C:\Code\CarRentingManager\car-renting-manager\Cms.WebApi\Cms.Service.Impl\obj\Debug\net6.0\ref\Cms.Service.Impl.dll
